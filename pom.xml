@@ -30,8 +30,8 @@
    
     <muleVersion>${mule.version}</muleVersion>
     <!-- Deploy User Parameter -->
-    <username>ggonda@3092</username>
-    <password>Dream@3092</password>
+    <username>${anypoint.username}</username>
+    <password>${anypoint.password}</password>
     <!-- Environment Parameter -->
     <environment>${cloudhub.environment}</environment>
     <applicationName>${cloudhub.app}</applicationName>
