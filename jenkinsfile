@@ -25,6 +25,8 @@ bat "mvn clean install"
     }
     
   }
-
+tools {
+    maven 'M3'
+  }
   
 }
